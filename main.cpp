@@ -3,7 +3,7 @@
 #include "lab4.cpp"
 using namespace std;
 
-
+//Adding some changes
 int main()
 {
     Camera canon("Canon", 4096, 450, "4000D", 8.25, 5, true);
@@ -24,6 +24,7 @@ int main()
         cout << "-----------" << endl;
     }
     return 0;
+    cout << "Something new"<<;
 }
 
 string convert(bool exp)
